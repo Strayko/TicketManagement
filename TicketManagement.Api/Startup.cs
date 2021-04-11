@@ -49,7 +49,7 @@ namespace TicketManagement.Api
             app.UseHttpsRedirection();
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors("Open");
 
             app.UseEndpoints(endpoints =>
             {
