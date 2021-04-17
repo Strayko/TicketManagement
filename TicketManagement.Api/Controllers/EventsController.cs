@@ -57,6 +57,10 @@ namespace TicketManagement.Api.Controllers
             return NoContent();
         }
 
+        [HttpDelete("{id}", Name = "DeleteEvent")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult> Delete(Guid id)
         {
             var deleteEventCommand = new DeleteEventCommand() {EventId = id};
@@ -64,6 +68,7 @@ namespace TicketManagement.Api.Controllers
             return NoContent();
         }
 
+        [HttpGet("export", Name = "ExportEvents")]
         public async Task<FileResult> ExportEvents()
         {
             var fileDto = await _mediator.Send(new GetEventsExportQuery());
