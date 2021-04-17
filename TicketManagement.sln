@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Api", "TicketManagement.Api\TicketManagement.Api.csproj", "{4E787071-D95E-4469-8BFE-EF1D4E66A514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Application.UnitTests", "TicketManagement.Application.UnitTests\TicketManagement.Application.UnitTests.csproj", "{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,7 @@ Global
 		{8F57424D-10D4-4872-87B8-25FA9D94375F} = {AA2A6503-65F6-4D95-863B-D5037F5A0D3C}
 		{B73E7803-00A3-4B6A-9D80-D2BA4844E3C3} = {AA2A6503-65F6-4D95-863B-D5037F5A0D3C}
 		{4E787071-D95E-4469-8BFE-EF1D4E66A514} = {5A7F49A1-28BD-4EED-9FBE-1A183E97097F}
+		{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039} = {D7A04C4D-707A-49D4-A498-3904036F58E5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{08272488-D179-4A90-A458-87EDBB8351E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -59,5 +62,9 @@ Global
 		{4E787071-D95E-4469-8BFE-EF1D4E66A514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E787071-D95E-4469-8BFE-EF1D4E66A514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E787071-D95E-4469-8BFE-EF1D4E66A514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
