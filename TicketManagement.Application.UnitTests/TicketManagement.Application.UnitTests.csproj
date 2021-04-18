@@ -18,8 +18,4 @@
       <ProjectReference Include="..\TicketManagement.Application\TicketManagement.Application.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Categories\Command" />
-    </ItemGroup>
-
 </Project>
