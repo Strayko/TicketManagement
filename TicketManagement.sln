@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Persistenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Api.IntegrationTests", "TicketManagement.Api.IntegrationTests\TicketManagement.Api.IntegrationTests.csproj", "{A3846481-7640-4CCE-8CC0-CD6408C2F550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.App", "TicketManagement.App\TicketManagement.App.csproj", "{E6696EDF-B649-434F-8D9A-4F3A696FE6FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,7 @@ Global
 		{E2E7B33F-6B7E-4FB2-940E-7FD38DF76039} = {D7A04C4D-707A-49D4-A498-3904036F58E5}
 		{2DBF9C4F-3FB4-48E8-AD88-F16B320646D0} = {D7A04C4D-707A-49D4-A498-3904036F58E5}
 		{A3846481-7640-4CCE-8CC0-CD6408C2F550} = {D7A04C4D-707A-49D4-A498-3904036F58E5}
+		{E6696EDF-B649-434F-8D9A-4F3A696FE6FD} = {8A201FCA-E0F1-44A0-92C8-4544A7DAF646}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{08272488-D179-4A90-A458-87EDBB8351E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -80,5 +83,9 @@ Global
 		{A3846481-7640-4CCE-8CC0-CD6408C2F550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3846481-7640-4CCE-8CC0-CD6408C2F550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3846481-7640-4CCE-8CC0-CD6408C2F550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6696EDF-B649-434F-8D9A-4F3A696FE6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6696EDF-B649-434F-8D9A-4F3A696FE6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6696EDF-B649-434F-8D9A-4F3A696FE6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6696EDF-B649-434F-8D9A-4F3A696FE6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

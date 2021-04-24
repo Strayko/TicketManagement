@@ -31,10 +31,10 @@ namespace TicketManagement.Api.IntegrationTests.Controllers
             response.EnsureSuccessStatusCode();
 
             var responseString = await response.Content.ReadAsStringAsync();
-
             var result = JsonConvert.DeserializeObject<List<CategoryListVm>>(responseString);
             
             Assert.IsNotEmpty(result);
+            Assert.IsInstanceOf<List<CategoryListVm>>(result);
         }
 
         public void Dispose()
