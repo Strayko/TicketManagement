@@ -28,6 +28,8 @@ namespace TicketManagement.Api
         public void ConfigureServices(IServiceCollection services)
         {
             AddSwagger(services);
+
+            services.AddHttpContextAccessor();
             
             services.AddApplicationService();
             services.AddInfrastructureService(Configuration);

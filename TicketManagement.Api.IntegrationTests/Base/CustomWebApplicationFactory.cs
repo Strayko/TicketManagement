@@ -43,18 +43,24 @@ namespace TicketManagement.Api.IntegrationTests.Base
                     var scopedServices = scope.ServiceProvider;
                     var context = scopedServices.GetRequiredService<TicketManagementDbContext>();
                     var logger = scopedServices.GetRequiredService<ILogger<CustomWebApplicationFactory<TStartup>>>();
-
-                    context.Database.EnsureCreated();
-                    Console.WriteLine(context);
                     
                     try
                     {
-                        Utilities.InitializeDbForTests(context);
+                        context.Database.EnsureCreated();
                     }
                     catch (Exception ex)
                     {
                         logger.LogError(ex, $"An error occured seeding the database with test messages. Error: {ex.Message}");
                     }
+                    
+                    // try
+                    // {
+                    //     Utilities.InitializeDbForTests(context);
+                    // }
+                    // catch (Exception ex)
+                    // {
+                    //     logger.LogError(ex, $"An error occured seeding the database with test messages. Error: {ex.Message}");
+                    // }
                 }
             });
         }

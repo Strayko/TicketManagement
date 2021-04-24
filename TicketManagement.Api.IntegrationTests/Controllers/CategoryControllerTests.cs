@@ -33,10 +33,8 @@ namespace TicketManagement.Api.IntegrationTests.Controllers
             var responseString = await response.Content.ReadAsStringAsync();
 
             var result = JsonConvert.DeserializeObject<List<CategoryListVm>>(responseString);
-            Console.WriteLine(result);
-
-            Assert.IsNotEmpty(result);
             
+            Assert.IsNotEmpty(result);
         }
 
         public void Dispose()
