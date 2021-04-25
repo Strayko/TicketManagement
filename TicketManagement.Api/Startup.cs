@@ -45,7 +45,7 @@ namespace TicketManagement.Api
             });
         }
 
-        private void AddSwagger(IServiceCollection services)
+        private static void AddSwagger(IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
             {
