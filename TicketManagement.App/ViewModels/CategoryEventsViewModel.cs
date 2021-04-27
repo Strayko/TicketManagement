@@ -7,6 +7,6 @@ namespace TicketManagement.App.ViewModels
     {
         public Guid CategoryId { get; set; }
         public string Name { get; set; }
-        public ICollection<EventNestedViewModel> Type { get; set; }
+        public ICollection<EventNestedViewModel> Events { get; set; }
     }
 }
