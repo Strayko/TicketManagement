@@ -14,7 +14,6 @@ namespace TicketManagement.App.Services.Base
         {
             _client = client;
             _localStorage = localStorage;
-
         }
 
         protected ApiResponse<Guid> ConvertApiExceptions<Guid>(ApiException ex)
